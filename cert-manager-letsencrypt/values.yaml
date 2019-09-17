@@ -1,0 +1,4 @@
+email: <override me>
+privateKeySecretRef: letsencryptstaging
+ingress:
+  class: nginx
