@@ -1,8 +1,20 @@
 apiVersion: v1
 entries:
+  cert-manager-init:
+  - apiVersion: v1
+    created: "2019-09-23T22:58:51.149077+01:00"
+    description: Init for cert manager in a helm document
+    digest: 4dc10c5c865d8b588c8d7ae87a8f4e301b9b2fec59cff7bcbebaf11b8262089e
+    maintainers:
+    - email: git@bourne.id
+      name: Robin Bourne
+    name: cert-manager-init
+    urls:
+    - https://bourne-id.github.com/helm-repository/cert-manager-init-0.0.1.tgz
+    version: 0.0.1
   cert-manager-letsencrypt:
   - apiVersion: v1
-    created: "2019-09-18T11:44:33.808884+01:00"
+    created: "2019-09-23T22:58:51.149587+01:00"
     description: Test helm for applying issuers for letsencrypt through helm and terraform
     digest: b34fd79e925ddc63cb1cceb08dd39e03cef91e20ca43345e8110da39b03009a3
     maintainers:
@@ -12,4 +24,4 @@ entries:
     urls:
     - https://bourne-id.github.com/helm-repository/cert-manager-letsencrypt-0.0.1.tgz
     version: 0.0.1
-generated: "2019-09-18T11:44:33.807676+01:00"
+generated: "2019-09-23T22:58:51.141057+01:00"
