@@ -16,8 +16,8 @@ spec:
     solvers:
     - dns01:
         route53:
-          region: {{ .Values.route53.region }}
           accessKeyID: {{.Values.route53.accessKeyID }}
+          hostedZoneID: {{ .Values.route53.hostedZoneID }}
           secretAccessKeySecretRef:
             name: {{ .Values.route53.secretAccessKeySecretRef.name }}
             key: {{ .Values.route53.secretAccessKeySecretRef.key }}

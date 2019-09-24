@@ -5,7 +5,8 @@ ingress:
 region: eu-central-1
 route53:
   region: eu-central-1
-  accessKeyId: <override me>
+  accessKeyID: <override me>
+  hostedZoneID: ""
   secretAccessKeySecretRef:
     name: staging-route53-credentials-secret
     key: secret-access-key
