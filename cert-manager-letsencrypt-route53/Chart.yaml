@@ -1,7 +1,7 @@
 apiVersion: v1
 description: Test helm for applying issuers for letsencrypt through helm and terraform
-name: cert-manager-letsencrypt
-version: 0.0.1
+name: cert-manager-letsencrypt-route53
+version: 0.0.2
 maintainers:
   - name: Robin Bourne
     email: git@bourne.id
